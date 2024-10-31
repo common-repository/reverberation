@@ -1,0 +1,42 @@
+/* Visual editor button style. */
+a.mce_reverberation_button:link {
+	background: url('../images/wcjcs-reverberation-button.png') no-repeat;
+	}
+span.mce_reverberation_button:hover {
+	background: url('../images/wcjcs-reverberation-button-hover.png') no-repeat;
+	}
+a.mce_reverberation_button:link,
+a.mce_reverberation_button:hover,
+span.mce_reverberation_button:hover {
+	width: 24px;
+	height: 22px;
+	background-position: 0 -1px;
+	}
+a.mce_reverberation_button:link,
+a.mce_reverberation_button:hover {
+	padding: 0;
+	}
+#reverberation-row-aid,
+#reverberation-row-sid,
+#reverberation-row-pid,
+#reverberation-row-photo,
+#reverberation-row-h,
+#reverberation-row-w,
+#reverberation-row-fit,
+#reverberation-row-bg,
+#reverberation-row-show-map,
+#reverberation-row-layout,
+#reverberation-row-posted-by,
+#reverberation-row-submit {
+	display: none;
+	}
+.reverberation-th {
+	width: 20%;
+	min-width: 150px;
+	text-align: right;
+	}
+.reverberation-td {
+	width: 80%;
+	max-width: 500px;
+	text-align: left;
+	}
